@@ -3,19 +3,26 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E398662BBA12C460FADB2E7 /* Pods_SportsCard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66A0C4099AEF059F3239C365 /* Pods_SportsCard.framework */; };
 		974A933A23A043FB00FE286D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974A933923A043FB00FE286D /* AppDelegate.swift */; };
 		974A933C23A043FB00FE286D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974A933B23A043FB00FE286D /* SceneDelegate.swift */; };
 		974A933E23A043FB00FE286D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974A933D23A043FB00FE286D /* ViewController.swift */; };
 		974A934123A043FB00FE286D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 974A933F23A043FB00FE286D /* Main.storyboard */; };
 		974A934323A043FC00FE286D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 974A934223A043FC00FE286D /* Assets.xcassets */; };
 		974A934623A043FC00FE286D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 974A934423A043FC00FE286D /* LaunchScreen.storyboard */; };
+		974A934E23A049DA00FE286D /* SportNameListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974A934D23A049DA00FE286D /* SportNameListCell.swift */; };
+		974A935023A04C2400FE286D /* SportTypeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974A934F23A04C2400FE286D /* SportTypeModel.swift */; };
+		974A935223A04EE100FE286D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 974A935123A04EE100FE286D /* GoogleService-Info.plist */; };
+		974A935423A051A000FE286D /* AddSportTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974A935323A051A000FE286D /* AddSportTypeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2FE90BFCE486DC61BAEBE8F8 /* Pods-SportsCard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SportsCard.release.xcconfig"; path = "Target Support Files/Pods-SportsCard/Pods-SportsCard.release.xcconfig"; sourceTree = "<group>"; };
+		66A0C4099AEF059F3239C365 /* Pods_SportsCard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SportsCard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		974A933623A043FB00FE286D /* SportsCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SportsCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		974A933923A043FB00FE286D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		974A933B23A043FB00FE286D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +31,11 @@
 		974A934223A043FC00FE286D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		974A934523A043FC00FE286D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		974A934723A043FC00FE286D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		974A934D23A049DA00FE286D /* SportNameListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportNameListCell.swift; sourceTree = "<group>"; };
+		974A934F23A04C2400FE286D /* SportTypeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportTypeModel.swift; sourceTree = "<group>"; };
+		974A935123A04EE100FE286D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		974A935323A051A000FE286D /* AddSportTypeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSportTypeViewController.swift; sourceTree = "<group>"; };
+		C505990D3BA15955097C0679 /* Pods-SportsCard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SportsCard.debug.xcconfig"; path = "Target Support Files/Pods-SportsCard/Pods-SportsCard.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +43,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E398662BBA12C460FADB2E7 /* Pods_SportsCard.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		67D5939C7DEB40F46F4F0A97 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				66A0C4099AEF059F3239C365 /* Pods_SportsCard.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		974A932D23A043FB00FE286D = {
 			isa = PBXGroup;
 			children = (
 				974A933823A043FB00FE286D /* SportsCard */,
 				974A933723A043FB00FE286D /* Products */,
+				E98FE852B9BB09B150E2C65F /* Pods */,
+				67D5939C7DEB40F46F4F0A97 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +79,36 @@
 		974A933823A043FB00FE286D /* SportsCard */ = {
 			isa = PBXGroup;
 			children = (
+				974A935523A145E600FE286D /* Model */,
+				974A935123A04EE100FE286D /* GoogleService-Info.plist */,
 				974A933923A043FB00FE286D /* AppDelegate.swift */,
 				974A933B23A043FB00FE286D /* SceneDelegate.swift */,
 				974A933D23A043FB00FE286D /* ViewController.swift */,
+				974A935323A051A000FE286D /* AddSportTypeViewController.swift */,
 				974A933F23A043FB00FE286D /* Main.storyboard */,
 				974A934223A043FC00FE286D /* Assets.xcassets */,
 				974A934423A043FC00FE286D /* LaunchScreen.storyboard */,
 				974A934723A043FC00FE286D /* Info.plist */,
 			);
 			path = SportsCard;
+			sourceTree = "<group>";
+		};
+		974A935523A145E600FE286D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				974A934D23A049DA00FE286D /* SportNameListCell.swift */,
+				974A934F23A04C2400FE286D /* SportTypeModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E98FE852B9BB09B150E2C65F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C505990D3BA15955097C0679 /* Pods-SportsCard.debug.xcconfig */,
+				2FE90BFCE486DC61BAEBE8F8 /* Pods-SportsCard.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +118,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 974A934A23A043FC00FE286D /* Build configuration list for PBXNativeTarget "SportsCard" */;
 			buildPhases = (
+				9580A7B979DEAC06EF79019D /* [CP] Check Pods Manifest.lock */,
 				974A933223A043FB00FE286D /* Sources */,
 				974A933323A043FB00FE286D /* Frameworks */,
 				974A933423A043FB00FE286D /* Resources */,
+				8BB431F198730F695F2ED9CB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +172,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				974A934623A043FC00FE286D /* LaunchScreen.storyboard in Resources */,
+				974A935223A04EE100FE286D /* GoogleService-Info.plist in Resources */,
 				974A934323A043FC00FE286D /* Assets.xcassets in Resources */,
 				974A934123A043FB00FE286D /* Main.storyboard in Resources */,
 			);
@@ -133,14 +180,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8BB431F198730F695F2ED9CB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SportsCard/Pods-SportsCard-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SportsCard/Pods-SportsCard-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SportsCard/Pods-SportsCard-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9580A7B979DEAC06EF79019D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SportsCard-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		974A933223A043FB00FE286D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				974A933E23A043FB00FE286D /* ViewController.swift in Sources */,
+				974A935023A04C2400FE286D /* SportTypeModel.swift in Sources */,
 				974A933A23A043FB00FE286D /* AppDelegate.swift in Sources */,
 				974A933C23A043FB00FE286D /* SceneDelegate.swift in Sources */,
+				974A935423A051A000FE286D /* AddSportTypeViewController.swift in Sources */,
+				974A934E23A049DA00FE286D /* SportNameListCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +374,7 @@
 		};
 		974A934B23A043FC00FE286D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C505990D3BA15955097C0679 /* Pods-SportsCard.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -299,6 +392,7 @@
 		};
 		974A934C23A043FC00FE286D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FE90BFCE486DC61BAEBE8F8 /* Pods-SportsCard.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
